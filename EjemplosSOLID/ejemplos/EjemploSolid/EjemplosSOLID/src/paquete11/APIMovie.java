@@ -11,7 +11,7 @@ package paquete11;
  */
 public interface APIMovie {
     
-    public void establecerApiKey(String ak);
+    public void establecerApiKey();
     
     public String obtenerApiKey();
     
