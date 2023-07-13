@@ -15,7 +15,9 @@ public class Principal {
         LecturaArchivo lectura = new LecturaArchivo(nombreArchivo);
         lectura.establecerLista();
         GeneradorPelicula pelicula = new GeneradorPelicula();
+        // LISTA ASIGNADA
         pelicula.establecerLista(lectura.obtenerLista());
         System.out.println(pelicula);
+        
     }
 }
